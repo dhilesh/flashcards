@@ -234,11 +234,11 @@ word_list = [
 ]
 
 
-num_words = len(word_list)
 score = 0
 attempts = 1
 
 while(True):
+    num_words = len(word_list)
     rand = random.randint(0, num_words-1)
     word_es = word_list[rand][0].lower()
     word_en = word_list[rand][1].lower()
